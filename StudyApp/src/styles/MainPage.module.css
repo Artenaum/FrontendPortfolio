@@ -1,0 +1,22 @@
+.header {
+	background-color: #FAFAFA;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 100px;
+}
+
+.pageTitle {
+	margin-left: 20px;
+	font-weight: normal;
+}
+
+.headerButtonsContainer {
+	display: flex;
+	flex-direction: row;
+	width: 500px;
+	align-items: center;
+	justify-content: center;
+}
