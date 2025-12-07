@@ -1,0 +1,12 @@
+.contentHolder {
+    box-sizing: border-box;
+    background-color: white;
+    width: 100%;
+    height: calc(100vh - 100px);
+    padding: 24px;
+    border-radius: 24px 24px 0 0;
+    box-shadow: -5px 1px 15px 0px #0000000d;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}

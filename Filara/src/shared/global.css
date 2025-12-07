@@ -1,0 +1,13 @@
+body {
+    background-color: #f8f8fa;
+}
+
+.MuiOutlinedInput-input {
+    border: 0;
+}
+
+.whiteButton {
+    background-color: white;
+    border: 1px solid #d0d3da;
+    color: #37393d;
+}

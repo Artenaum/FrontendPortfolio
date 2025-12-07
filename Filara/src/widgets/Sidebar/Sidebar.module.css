@@ -1,0 +1,21 @@
+.sidebar {
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 100px;
+}
+
+.flexBoxRow {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.sidebarBtnList {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}

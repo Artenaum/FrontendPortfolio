@@ -1,0 +1,22 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.itemNumSelect {
+    height: 32px;
+    width: fit-content;
+    font-size: 14px;
+}
+
+.pageSelect {
+    height: 32px;
+    width: 55px;
+    font-size: 14px;
+}
+
+.navButtons .MuiButton-root {
+    border-color: #d0d3da;
+    color: #414348;
+}

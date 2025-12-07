@@ -1,0 +1,29 @@
+.header {
+    margin-top: 20px;
+    align-self: flex-end;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    align-self: flex-end;
+}
+
+.email {
+    font-size: 14px !important;
+}
+
+.exitBtn {
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 4px !important;
+    background-color: #ebecef !important;
+}
+
+.icon {
+}

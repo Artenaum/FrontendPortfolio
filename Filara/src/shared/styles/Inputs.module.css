@@ -1,0 +1,19 @@
+.commonInput {
+    background-color: white;
+    color: #434652;
+    font-size: 14px;
+}
+
+.commonInput::placeholder {
+    color: #737680;
+}
+
+.textInputRegular {
+    border-radius: 8px;
+    height: 40px;
+}
+
+.textInputSmall {
+    border-radius: 4px;
+    height: 32px;
+}

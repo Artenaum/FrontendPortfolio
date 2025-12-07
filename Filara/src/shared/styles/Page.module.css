@@ -1,0 +1,16 @@
+.page {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+.headerAndContent {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    flex-grow: 1;
+    gap: 24px;
+    margin-right: 96px;
+}

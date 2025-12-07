@@ -1,0 +1,14 @@
+.sidebarButton {
+    height: 56px;
+    width: 185px;
+    justify-content: flex-start !important;
+    color: black !important;
+    background-color: inherit !important;
+    text-transform: capitalize !important;
+    font-weight: 500 !important;
+}
+
+.sidebarButton:disabled {
+    color: white !important;
+    background-color: #c06ecc !important;
+}
