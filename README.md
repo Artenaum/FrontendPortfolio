@@ -1,6 +1,6 @@
 Frontend проекты для портфолио
 
-1. [PAMConsulting](https://github.com/Artenaum/FrontendPortfolio/tree/main/PAMConsulting#readme) - Главная страница туристического сайта. (HTLM, CSS, JavaScript)
+1. [PAMConsulting](https://github.com/Artenaum/FrontendPortfolio/tree/main/PAMConsulting#readme) - Главная страница туристического сайта. (HTML, CSS, JavaScript)
 2. [EShopForm](https://github.com/Artenaum/FrontendPortfolio/tree/main/EShopForm#readme) - Форма для авторизации/регистрации. (React, React Hook Form, Yup)
 3. [StudyApp](https://github.com/Artenaum/FrontendPortfolio/tree/main/StudyApp#readme) - Простое приложение с учебными курсами и модулями. (TypeScript, React, Redux, MUI)
 4. [Filara](https://github.com/Artenaum/FrontendPortfolio/tree/main/Filara#readme) - Админ-панель интернет-магазина. (TypeScript, React, Redux, Mobx, MUI)
