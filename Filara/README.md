@@ -1,5 +1,4 @@
-Приложение для администрирования сайта (учебный проект).<br>
-Репозиторий-оригинал: https://gitlab.com/reznov_fe-group/osnova_fe <br>
+Приложение для администрирования сайта<br>
 Стек: TypeScript, React, Redux, Mobx, Material UI <br>
 
 ![Filara1](Filara1.png)
