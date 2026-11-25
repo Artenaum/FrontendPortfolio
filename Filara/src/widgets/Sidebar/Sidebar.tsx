@@ -14,6 +14,7 @@ import SidebarDollarIcon from '../../shared/ui/icons/SidebarDollarIcon'
 import SidebarGearIcon from '../../shared/ui/icons/SidebarGearIcon'
 import MenuIcon from '@mui/icons-material/Menu'
 import {useState} from 'react'
+import logo from 'src/shared/assets/logo.svg'
 
 const Sidebar = ({disabledButton}: {disabledButton: string}) => {
     const isMobile: boolean = useMediaQuery('(max-width: 1000px)')
@@ -123,7 +124,7 @@ const Sidebar = ({disabledButton}: {disabledButton: string}) => {
                         <MenuIcon />
                     </IconButton>
                     <Box>
-                        <img src="/src/shared/assets/logo.svg" width="100" />
+                        <img src={logo} width="100" />
                     </Box>
                     <Drawer open={drawerOpen} onClose={handleDrawerClose}>
                         {sidebarButtons}
@@ -132,7 +133,7 @@ const Sidebar = ({disabledButton}: {disabledButton: string}) => {
             ) : (
                 <Box className={styles.sidebar}>
                     <Box sx={{marginTop: '50px'}}>
-                        <img src="/src/shared/assets/logo.svg" width="100" />
+                        <img {logo} width="100" />
                     </Box>
                     {sidebarButtons}
                 </Box>
