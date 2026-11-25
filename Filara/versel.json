@@ -7,9 +7,6 @@
     }
   },
   "rewrites": [
-    { "source": "/auth/login", "destination": "/api/auth" },
-    { "source": "/auth/register", "destination": "/api/auth" },
-    { "source": "/api/(.*)", "destination": "/api/db" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
