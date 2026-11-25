@@ -7,6 +7,6 @@
 
 Ссылка на демо: <br><br>
 
-![Fithub1](Fithub1.png)
+![Fithub1](Fithub2.png)
 ![Fithub2](Fithub2.png)
 ![Fithub3](Fithub3.png)
