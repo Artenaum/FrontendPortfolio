@@ -7,7 +7,9 @@ const PromocodesPage = () => {
     return (
         <Box className={styles.page}>
             <Sidebar disabledButton="promocodes" />
-            <Header />
+            <Box className={styles.headerAndContent}>
+                <Header />
+            </Box>
         </Box>
     )
 }
