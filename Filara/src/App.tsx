@@ -1,4 +1,4 @@
-import {Route, Routes} from 'react-router'
+import {Navigate, Route, Routes} from 'react-router'
 import './App.css'
 import '../src/shared/global.css'
 import AuthPage from './pages/AuthPage'
@@ -20,7 +20,7 @@ function App() {
     return (
         <>
             <Routes>
-                <Route path="/" />
+                <Route path="/" element={<Navigate to="auth/" replace/>}/>
                 <Route path="auth" element={<AuthPage />} />
                 <Route element={<ProtectedRoute />}>
                     <Route path="/banners" element={<BannersPage />} />
