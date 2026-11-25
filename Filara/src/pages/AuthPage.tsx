@@ -20,6 +20,7 @@ import VisibilityOffIcon from '@mui/icons-material/VisibilityOff'
 import {useLoginUserMutation} from '../redux/usersApi'
 import {useAppDispatch} from '../redux/store'
 import {storeUser} from '../redux/userSlice'
+import logo from 'src/shared/assets/logo.svg'
 
 interface AuthInput {
     email: string
@@ -76,7 +77,7 @@ const AuthPage = () => {
                     marginBottom: '70px'
                 }}
             >
-                <img src="src/shared/assets/logo.svg" />
+                <img src={logo} />
             </Box>
 
             <Box
