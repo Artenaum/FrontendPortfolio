@@ -6,13 +6,6 @@
       "includeFiles": "src/{server/users.json,shared/db/FilaraDB.json}"
     }
   },
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "/auth",
-      "permanent": false
-    }
-  ],
   "rewrites": [
     { "source": "/auth/login", "destination": "/api/auth" },
     { "source": "/auth/register", "destination": "/api/auth" },
