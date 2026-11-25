@@ -1,7 +1,31 @@
-Frontend проекты для портфолио
+Здесь представленно три самых значимых проекта, над которыми я работал в ходе стажировки. <br/><br/>
 
-1. [PAMConsulting](https://github.com/Artenaum/FrontendPortfolio/tree/main/PAMConsulting#readme) - Главная страница туристического сайта. (HTML, CSS, JavaScript)
-2. [EShopForm](https://github.com/Artenaum/FrontendPortfolio/tree/main/EShopForm#readme) - Форма для авторизации/регистрации. (React, React Hook Form, Yup)
-3. [StudyApp](https://github.com/Artenaum/FrontendPortfolio/tree/main/StudyApp#readme) - Простое приложение с учебными курсами и модулями. (TypeScript, React, Redux, MUI)
-4. [Filara](https://github.com/Artenaum/FrontendPortfolio/tree/main/Filara#readme) - Панель администрирования веб-ресурса. (TypeScript, React, Redux, RTK Query, MUI)
-5. [fithub-test](https://github.com/Artenaum/FrontendPortfolio/tree/main/fithub-test#readme) - Страница сайта по фитнесу (Тестовое задание) (TypeScript, React, Tailwind CSS)
+## Проект 1: PAMConsulting
+Главная страница туристического сайта.
+
+![PamConsulting1](PamConsulting1.png)
+
+[Ссылка на подробное описание и код](https://github.com/Artenaum/FrontendPortfolio/tree/main/PAMConsulting#readme) <br/>
+Ссылка на демо: <br/><br/>
+
+
+## Проект 2: FILARA
+Панель администрирования веб-ресурса на React и TypeScript.
+
+![Filara1](Filara1.png)
+
+[Ссылка на подробное описание и код](https://github.com/Artenaum/FrontendPortfolio/tree/main/Filara#readme) <br/>
+Ссылка на демо:
+
+Данные для входа <br/>
+Email: ivan@spaceacademy.org <br/>
+Пароль: qwerty123 <br/><br/>
+
+
+## Проект 3: Fithub
+Страница сайта по фитнесу на Next.js.
+
+![Fithub1](Fithub1.png)
+
+[Ссылка на подробное описание и код](https://github.com/Artenaum/FrontendPortfolio/tree/main/Fithub#readme) <br/>
+Ссылка на демо: <br/><br/>
