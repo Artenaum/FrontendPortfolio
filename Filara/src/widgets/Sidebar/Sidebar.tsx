@@ -133,7 +133,7 @@ const Sidebar = ({disabledButton}: {disabledButton: string}) => {
             ) : (
                 <Box className={styles.sidebar}>
                     <Box sx={{marginTop: '50px'}}>
-                        <img {logo} width="100" />
+                        <img src={logo} width="100" />
                     </Box>
                     {sidebarButtons}
                 </Box>
