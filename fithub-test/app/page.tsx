@@ -33,7 +33,7 @@ export default function Home() {
 	}
 
 	useEffect(() => {
-		fetch('https://t-core.fit-hub.pro/Test/GetTariffs')
+		fetch('/offers.json')
 			.then(response => response.json())
 			.then(data => setOffers(data))
 	}, [])
