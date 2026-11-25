@@ -27,5 +27,5 @@ Email: ivan@spaceacademy.org <br/>
 
 ![Fithub1](Fithub1.png)
 
-[Ссылка на подробное описание и код](https://github.com/Artenaum/FrontendPortfolio/tree/main/Fithub#readme) <br/>
+[Ссылка на подробное описание и код](https://github.com/Artenaum/FrontendPortfolio/tree/main/fithub-test#readme) <br/>
 Ссылка на демо: <br/><br/>
