@@ -20,7 +20,7 @@ import VisibilityOffIcon from '@mui/icons-material/VisibilityOff'
 import {useLoginUserMutation} from '../redux/usersApi'
 import {useAppDispatch} from '../redux/store'
 import {storeUser} from '../redux/userSlice'
-import logo from 'src/shared/assets/logo.svg'
+import logo from '../shared/assets/logo.svg'
 
 interface AuthInput {
     email: string
