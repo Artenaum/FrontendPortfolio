@@ -7,7 +7,9 @@ const CategoriesPage = () => {
     return (
         <Box className={styles.page}>
             <Sidebar disabledButton="categories" />
-            <Header />
+            <Box className={styles.headerAndContent}>
+                <Header />
+            </Box>
         </Box>
     )
 }
