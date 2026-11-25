@@ -6,7 +6,7 @@
 ![PamConsulting1](PamConsulting1.png)
 
 [Ссылка на подробное описание и код](https://github.com/Artenaum/FrontendPortfolio/tree/main/PAMConsulting#readme) <br/>
-Ссылка на демо: <br/><br/>
+Ссылка на демо: https://pamconsulting-tau.vercel.app/ <br/><br/>
 
 
 ## Проект 2: FILARA
