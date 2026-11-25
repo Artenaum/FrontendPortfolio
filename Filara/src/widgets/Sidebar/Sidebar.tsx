@@ -14,7 +14,7 @@ import SidebarDollarIcon from '../../shared/ui/icons/SidebarDollarIcon'
 import SidebarGearIcon from '../../shared/ui/icons/SidebarGearIcon'
 import MenuIcon from '@mui/icons-material/Menu'
 import {useState} from 'react'
-import logo from 'src/shared/assets/logo.svg'
+import logo from '../../shared/assets/logo.svg'
 
 const Sidebar = ({disabledButton}: {disabledButton: string}) => {
     const isMobile: boolean = useMediaQuery('(max-width: 1000px)')
