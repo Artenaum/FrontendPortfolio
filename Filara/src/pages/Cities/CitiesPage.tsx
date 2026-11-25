@@ -7,7 +7,9 @@ const CitiesPage = () => {
     return (
         <Box className={styles.page}>
             <Sidebar disabledButton="cities" />
-            <Header />
+            <Box className={styles.headerAndContent}>
+                <Header />
+            </Box>
         </Box>
     )
 }
