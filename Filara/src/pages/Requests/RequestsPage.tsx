@@ -7,7 +7,9 @@ const RequestsPage = () => {
     return (
         <Box className={styles.page}>
             <Sidebar disabledButton="requests" />
-            <Header />
+            <Box className={styles.headerAndContent}>
+                <Header />
+            </Box>
         </Box>
     )
 }
