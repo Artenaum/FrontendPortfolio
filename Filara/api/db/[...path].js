@@ -11,7 +11,7 @@ const router = jsonServer.router(initialData)
 
 server.use(middlewares)
 server.use((req, res, next) => {
-    req.url = req.url.replace(/^\/api/, '') || '/'
+    req.url = req.url.replace(/^\/api\/db/, '').replace(/^\/db/, '') || '/'
     next()
 })
 server.use(router)
