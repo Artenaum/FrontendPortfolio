@@ -7,7 +7,9 @@ const SettingsPage = () => {
     return (
         <Box className={styles.page}>
             <Sidebar disabledButton="settings" />
-            <Header />
+            <Box className={styles.headerAndContent}>
+                <Header />
+            </Box>
         </Box>
     )
 }
