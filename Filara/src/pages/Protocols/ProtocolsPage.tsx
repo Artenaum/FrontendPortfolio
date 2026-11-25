@@ -7,7 +7,9 @@ const ProtocolsPage = () => {
     return (
         <Box className={styles.page}>
             <Sidebar disabledButton="protocols" />
-            <Header />
+            <Box className={styles.headerAndContent}>
+                <Header />
+            </Box>
         </Box>
     )
 }
