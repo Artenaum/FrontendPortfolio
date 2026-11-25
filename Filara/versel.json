@@ -1,0 +1,14 @@
+{
+    "buildCommand": "npm run build",
+    "outputDirectory": "dist",
+    "functions": {
+        "api/*.js": {
+            "includeFiles": "src/{server/users.json,shared/db/FilaraDB.json}"
+        }
+    },
+    "rewrites": [
+        {"source": "/auth/(.*)", "destination": "/api/auth"},
+        {"source": "/api/(.*)", "destination": "/api/db"},
+        {"source": "/(.*)", "destination": "/index.html"}
+    ]
+}
