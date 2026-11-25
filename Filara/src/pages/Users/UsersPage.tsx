@@ -7,7 +7,9 @@ const UsersPage = () => {
     return (
         <Box className={styles.page}>
             <Sidebar disabledButton="users" />
-            <Header />
+            <Box className={styles.headerAndContent}>
+                <Header />
+            </Box>
         </Box>
     )
 }
