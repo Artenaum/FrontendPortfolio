@@ -13,6 +13,15 @@ server.use(bodyParser.urlencoded({extended: true}))
 server.use(bodyParser.json())
 server.use(jsonServer.defaults())
 
+server.use((req, res, next) => {
+    if (req.url.startsWith('/api/auth')) {
+        req.url = req.url.replace('/api', '')
+    } else if (!req.url.startsWith('/auth')) {
+    req.url = '/auth' + (req.url.startsWith('/') ? req.url : '/' + req.url)
+  }
+    next()
+})
+
 const SECRET_KEY = 'FASTQWFGSADH'
 const expiresIn = '1h'
 
