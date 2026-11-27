@@ -23,7 +23,7 @@ Email: ivan@spaceacademy.org <br>
 
 
 ## Проект 3: Fithub
-Страница сайта по фитнесу на Next.js.
+Страница тарифных планов для сети фитнес клубов на Next.js.
 
 ![Fithub1](Fithub1.png)
 
