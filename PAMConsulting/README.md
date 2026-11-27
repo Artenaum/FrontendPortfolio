@@ -7,7 +7,7 @@
 Для слайдера с изображениями и слайдера в секции FAQ используется библиотека Swiper с кастомными настройками.
 У карты Кипра реализован клик только по городам Лимассол и Никосии.
 
-Ссылка на демо: <br/><br/>
+[Ссылка на демо](https://pamconsulting-tau.vercel.app/) <br><br>
 
 ![PamConsulting1](PamConsulting1.png)
 ![PamConsulting2](PamConsulting2.png)
